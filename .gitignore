@@ -63,4 +63,4 @@ jenkins_home/.cache
 
 #other
 jenkins_home/caches
-
+jenkins_home/.ansible/tmp/
