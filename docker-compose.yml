@@ -1,0 +1,11 @@
+version: '2'
+services:
+    jenkins-local:
+      # используем последний стабильный образ nginx
+        build: ./images/jenkins-docker
+        # маршрутизируем порты
+        ports:
+            - "8088:8080"
+        # монтируем директории, слева директории на основной машине, справа - куда они монтируются в контейнере
+        volumes:
+            - ./jenkins_home:/var/jenkins_home
