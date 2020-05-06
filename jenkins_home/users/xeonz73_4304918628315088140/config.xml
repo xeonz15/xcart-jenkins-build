@@ -3,6 +3,7 @@
   <version>10</version>
   <id>xeonz73</id>
   <fullName>xeonz73</fullName>
+  <description></description>
   <properties>
     <jenkins.security.ApiTokenProperty>
       <tokenStore>
@@ -12,10 +13,14 @@
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.3.7">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.32">
+      <emailAddress>xeonz73@gmail.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
     <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.69">
       <triggers/>
     </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
     <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
       <views>
         <hudson.model.AllView>
           <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
@@ -32,15 +37,20 @@
     <hudson.model.PaneStatusProperties>
       <collapsed/>
     </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$b82S/EEUhdvVubnh/JUZO.R97zBFpX.ZpbtbD9eWtqp9.fW96fXaC</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
     <jenkins.security.seed.UserSeedProperty>
-      <seed>8212c6f5f35fa8e0</seed>
+      <seed>5a90a1eb3452f3ac</seed>
     </jenkins.security.seed.UserSeedProperty>
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>true</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <hudson.model.TimeZoneProperty/>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.32">
-      <emailAddress>xeonz73@gmail.com</emailAddress>
-    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.model.TimeZoneProperty>
+      <timeZoneName></timeZoneName>
+    </hudson.model.TimeZoneProperty>
   </properties>
 </user>
