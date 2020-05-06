@@ -1,0 +1,31 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/xcart
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9b31d71212f2d8e18136fbd545c99b5e5ca07169 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9b31d71212f2d8e18136fbd545c99b5e5ca07169 # timeout=10
+Commit message: "v7"
+ > git rev-list --no-walk 90af50d2a9dba92adf3df0d4170a5a3b0f3db878 # timeout=10
+[xcart] $ sshpass ******** ansible-playbook /var/lib/jenkins/workspace/xcart/ansible/deploy-xcart.yml -i /var/lib/jenkins/workspace/xcart/env1.lst -l xcart -f 5 -u root -k
+[WARNING]: Unable to parse /var/lib/jenkins/workspace/xcart/env1.lst as an
+inventory source
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+[WARNING]: Could not match supplied host pattern, ignoring: xcart
+
+PLAY [Deploy XCart] ************************************************************
+skipping: no hosts matched
+
+PLAY RECAP *********************************************************************
+
+Finished: SUCCESS

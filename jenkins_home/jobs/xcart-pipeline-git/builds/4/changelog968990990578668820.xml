@@ -1,0 +1,10 @@
+commit d40b63f47832683139e9dc0df9fafa400c75aa12
+tree fad5424e9ac1f8121dd3922c7143129629a3ee8b
+parent b8ad091822d8c8f70eee829b7ef32485deb1bc2a
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-03 22:22:55 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-03 22:22:55 +0400
+
+    jenkinsfile v3
+
+
+:100644 100644 cf75cd9a4f38b619959d0a9755d164179927c937 7eafa3deb52a9c35e39a77d74d78115bef28b13c M	Jenkinsfile

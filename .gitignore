@@ -1,0 +1,66 @@
+# Non-config file types
+jenkins_home/*.log
+jenkins_home/*.log.*
+jenkins_home/*.tmp
+jenkins_home/*.old
+jenkins_home/*.bak
+jenkins_home/*.jar
+jenkins_home/*.jpi
+jenkins_home/*.jpi.pinned
+jenkins_home/*.json
+
+# Security related
+jenkins_home/.ssh
+jenkins_home/secret.key*
+jenkins_home/secrets
+jenkins_home/credentials.xml
+jenkins_home/identity.key
+ 
+# Generated Jenkins state
+jenkins_home/.owner
+jenkins_home/queue.xml
+jenkins_home/fingerprints/
+jenkins_home/shelvedProjects/
+jenkins_home/updates/
+ 
+# Tools that Jenkins manages
+jenkins_home/tools/
+jenkins_home/cache/
+ 
+# Extracted plugins
+jenkins_home/plugins/*/
+ 
+# Job state
+jenkins_home/builds/
+jenkins_home/workspace/
+jenkins_home/lastStable
+jenkins_home/lastSuccessful
+jenkins_home/nextBuildNumber
+jenkins_home/modules/
+
+# Interactive shell stuff
+jenkins_home/.bash_history
+jenkins_home/.vim*
+jenkins_home/.lesshst
+jenkins_home/.Xauthority
+
+# Package cache
+jenkins_home/.gradle/caches
+jenkins_home/.ivy2/
+jenkins_home/.m2/
+jenkins_home/.node-gyp/
+jenkins_home/.npm/
+jenkins_home/.sbt/
+
+# TFS plugin
+jenkins_home/.microsoft
+
+# FOP cache
+jenkins_home/.fop
+
+# Fontconfig cache
+jenkins_home/.cache
+
+#other
+jenkins_home/caches
+

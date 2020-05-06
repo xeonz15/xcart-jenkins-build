@@ -1,0 +1,10 @@
+commit 6306ca20a8d9b0562b02ee56fcd48b11f02c9595
+tree e4aa746eddf1a17dfcbf672c93ee7d7c75bb4bcb
+parent 379927513ce5561754d67f0daddd73b82f4d91e3
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-01 20:56:51 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-01 20:56:51 +0400
+
+    php nginx fix
+
+
+:100644 100644 d7176e8abcc56927fc7f1a5d7c00d7afcf71e291 c1255beda68e0021ba5ff6b46498e01f8d7b7122 M	ansible/deploy-xcart.yml

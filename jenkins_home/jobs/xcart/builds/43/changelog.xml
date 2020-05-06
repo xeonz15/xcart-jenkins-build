@@ -1,0 +1,10 @@
+commit d918b57cab580bb473e8d44c86d268ad97041cda
+tree 2dfed768c5198882167f4111578cc99af7ec1b4c
+parent 6306ca20a8d9b0562b02ee56fcd48b11f02c9595
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-01 21:09:25 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-01 21:09:25 +0400
+
+    remove firewall config
+
+
+:100644 100644 0458fa9c787f9a6b20bd6503c1ae0bde6fc6d3d2 a0019dd7e9894828f8c7af1e25873da3886deb9d M	ansible/nginx.yml

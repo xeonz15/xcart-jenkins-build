@@ -1,0 +1,36 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/xcart
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d4d77111d5adae1b5b129ae66ef79408801e19fe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d4d77111d5adae1b5b129ae66ef79408801e19fe # timeout=10
+Commit message: "v8"
+ > git rev-list --no-walk d4d77111d5adae1b5b129ae66ef79408801e19fe # timeout=10
+[xcart] $ sshpass ******** ansible-playbook /var/lib/jenkins/workspace/xcart/ansible/deploy-xcart.yml -i ${trg-host}, -l xcart -f 5 -u root -k
+[WARNING]: Could not match supplied host pattern, ignoring: xcart
+ERROR! Specified hosts and/or --limit does not match any hosts
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1856)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+ERROR: Ansible playbook execution failed
+Finished: FAILURE

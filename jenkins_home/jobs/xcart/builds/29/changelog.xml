@@ -1,0 +1,11 @@
+commit c4128e53a1bff7e333a433b25afb1aa4546d6b03
+tree 850940f808330e613b869546324c2337d277bb4d
+parent 160ebf7cf71904afafbbc152617866c5cd9677d3
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-01 20:13:06 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-01 20:13:06 +0400
+
+    Deleted files manually
+
+
+:100755 000000 fcedbef58fc80b821f628bdcd04bb98000698f3f 0000000000000000000000000000000000000000 D	terraform/.terraform/plugins/linux_amd64/lock.json
+:100755 000000 90b02ef2c577b9bbd6fe54c5431cbeaaff9b1232 0000000000000000000000000000000000000000 D	terraform/.terraform/plugins/linux_amd64/terraform-provider-digitalocean_v1.17.0_x4

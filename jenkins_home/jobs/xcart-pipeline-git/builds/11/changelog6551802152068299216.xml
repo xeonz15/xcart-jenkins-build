@@ -1,0 +1,50 @@
+commit 02f2e274f38509562ff1ffb7d7a1b7ff0b7ac366
+tree b70c3af8b21822a27e787dd758097e47904463cd
+parent 8bedff4f4b3a1aede87bf75f0b25653cc4345f3e
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:21:26 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:21:26 +0400
+
+    jenkinsfile v7
+
+
+:100644 100644 2a6267c554cc8296c0a90e4dbf79898ed59a5f51 2883f7bc525f0363e8f021c8455a2d10f9d00f04 M	Jenkinsfile
+commit 8bedff4f4b3a1aede87bf75f0b25653cc4345f3e
+tree 2e11e10f73a45a9706f1f880dd8b28faf83cd4ed
+parent 2b94598fe0c48f40fdc0bb6f60d8d1a06028a7c9
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:19:33 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:19:33 +0400
+
+    jenkinsfile v6
+
+
+:100644 100644 fb6f4238f39a8c9c45eb9d0af01642c514076a2a 2a6267c554cc8296c0a90e4dbf79898ed59a5f51 M	Jenkinsfile
+commit 2b94598fe0c48f40fdc0bb6f60d8d1a06028a7c9
+tree 996beec9eaf88dea90171cccf5f3c6c42ba3c453
+parent 166ba11dc3b2d20ab1f2c0a2b0443c433695acac
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:18:03 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:18:03 +0400
+
+    jenkinsfile v5
+
+
+:100644 100644 65274bc78073d67267da8745983f3208dbda313d fb6f4238f39a8c9c45eb9d0af01642c514076a2a M	Jenkinsfile
+commit 166ba11dc3b2d20ab1f2c0a2b0443c433695acac
+tree edf0ce53fa75e97a75d87c0726d1e7fc8ac97854
+parent 700c9be92309ff66e4ec46cdf7c1330915989138
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:16:55 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:16:55 +0400
+
+    readme update
+
+
+:100644 100644 0bb1b78d2ea59a47c659a671cf70507e833c3371 16e0b5788dda5f3adb576257f7fb487bcb2c2fd1 M	readme.md
+commit 700c9be92309ff66e4ec46cdf7c1330915989138
+tree 857b5b13fb6178c48835a740e08777379cc74379
+parent d40b63f47832683139e9dc0df9fafa400c75aa12
+author Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:14:12 +0400
+committer Jenkins Automation Server <jenkins@linux-deploy.localdomain> 2020-05-04 17:14:12 +0400
+
+    jenkinsfile v4
+
+
+:100644 100644 7eafa3deb52a9c35e39a77d74d78115bef28b13c 65274bc78073d67267da8745983f3208dbda313d M	Jenkinsfile

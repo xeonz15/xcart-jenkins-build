@@ -1,0 +1,158 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/xcart
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/xeonz15/xcart-test.git/
+ > git init /var/lib/jenkins/workspace/xcart # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1c263510d3d6ac5193d13b3fa1784f574d8a5b62 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1c263510d3d6ac5193d13b3fa1784f574d8a5b62 # timeout=10
+Commit message: "v22"
+ > git rev-list --no-walk 026f9759f656cb94ff024dd0949d2b105d4fefe2 # timeout=10
+[xcart] $ /bin/sh -xe /tmp/jenkins3260410902987543396.sh
++ /var/lib/jenkins/workspace/xcart/create_droplet.sh ****
+
+[0m[1mInitializing the backend...[0m
+
+[0m[1mInitializing provider plugins...[0m
+- Checking for available provider plugins...
+- Downloading plugin for provider "digitalocean" (terraform-providers/digitalocean) 1.17.0...
+
+The following providers do not have any version constraints in configuration,
+so the latest version was installed.
+
+To prevent automatic upgrades to new major versions that may contain breaking
+changes, it is recommended to add version = "..." constraints to the
+corresponding provider blocks in configuration, with the constraint strings
+suggested below.
+
+* provider.digitalocean: version = "~> 1.17"
+
+[0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[0m[32m
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.[0m
+[0m[1mRefreshing Terraform state in-memory prior to plan...[0m
+The refreshed state will be used to calculate this plan, but will not be
+persisted to local or remote state storage.
+[0m
+
+------------------------------------------------------------------------
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[0m
+Terraform will perform the following actions:
+
+[1m  # digitalocean_droplet.node1[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "digitalocean_droplet" "node1" {
+      [32m+[0m [0m[1m[0mbackups[0m[0m              = false
+      [32m+[0m [0m[1m[0mcreated_at[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mdisk[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mimage[0m[0m                = "centos-7-x64"
+      [32m+[0m [0m[1m[0mipv4_address[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mipv4_address_private[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mipv6[0m[0m                 = false
+      [32m+[0m [0m[1m[0mipv6_address[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_address_private[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mlocked[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mmemory[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mmonitoring[0m[0m           = false
+      [32m+[0m [0m[1m[0mname[0m[0m                 = "lon1-xcart1"
+      [32m+[0m [0m[1m[0mprice_hourly[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mprice_monthly[0m[0m        = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_networking[0m[0m   = (known after apply)
+      [32m+[0m [0m[1m[0mregion[0m[0m               = "lon1"
+      [32m+[0m [0m[1m[0mresize_disk[0m[0m          = true
+      [32m+[0m [0m[1m[0msize[0m[0m                 = "s-1vcpu-2gb"
+      [32m+[0m [0m[1m[0mssh_keys[0m[0m             = (known after apply)
+      [32m+[0m [0m[1m[0mstatus[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0murn[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mvcpus[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mvolume_ids[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_uuid[0m[0m             = (known after apply)
+    }
+
+[1m  # digitalocean_ssh_key.default[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "digitalocean_ssh_key" "default" {
+      [32m+[0m [0m[1m[0mfingerprint[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m        = "jenkins ssh key"
+      [32m+[0m [0m[1m[0mpublic_key[0m[0m  = <<~EOT
+            ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCkPBBLGutGyY0sf7dzJ5ZrO64flgBzBHilPn3SoQ2O/G344rqB29iZBYWeHOlmCoESrjmV9AtfASScP3dLMgf8HODZV7H8P+K/MAumCbv/F+mzvp7vPt0I5wMYzzdptswbeBI/97pUSeoguvPHFV5uhZ8+fUkSbkf5GJad1+mKn2NON0758oJBv95S7OuEIwkJCG5Dn9h9pDdwu1gLTCF0lkgPSCIqbJ8hda+Gd6xSzoLcsFF8pgN3Pc9xYFq9D/Xl6FAneq4fOOmrOXgGSUyYQklPY0nLMXcylVfCSHuOvtImX1jY395mNFsh45og2gEWMbAw1l7etngT89XXVXM7 jenkins@linux-deploy.localdomain
+        EOT
+    }
+
+[0m[1mPlan:[0m 2 to add, 0 to change, 0 to destroy.[0m
+
+------------------------------------------------------------------------
+
+Note: You didn't specify an "-out" parameter to save this plan, so Terraform
+can't guarantee that exactly these actions will be performed if
+"terraform apply" is subsequently run.
+
+[0m[1mdigitalocean_ssh_key.default: Creating...[0m[0m
+[0m[1mdigitalocean_ssh_key.default: Creation complete after 2s [id=27288995][0m[0m
+[0m[1mdigitalocean_droplet.node1: Creating...[0m[0m
+[0m[1mdigitalocean_droplet.node1: Still creating... [10s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.node1: Still creating... [20s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.node1: Still creating... [30s elapsed][0m[0m
+[0m[1mdigitalocean_droplet.node1: Creation complete after 32s [id=190854721][0m[0m
+[0m[1m[32m
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.[0m
+[0m[1m[32m
+Outputs:
+
+instance_ip_addr = 161.35.160.84[0m
+Waiting 60 sec while instance booting...
++ /var/lib/jenkins/workspace/xcart/configure_droplet.sh xcart xcart xcart1234
+
+PLAY [Deploy XCart] ************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [161.35.160.84]
+
+TASK [include_tasks] ***********************************************************
+included: /var/lib/jenkins/workspace/xcart/ansible/mysql.yml for 161.35.160.84
+
+TASK [Install MariaDB repo] ****************************************************
+changed: [161.35.160.84]
+
+TASK [Install MariaDB packages] ************************************************
+changed: [161.35.160.84]
+
+TASK [Enable the MariaDB service] **********************************************
+changed: [161.35.160.84]
+
+TASK [Install python modules for mysql] ****************************************
+changed: [161.35.160.84]
+
+TASK [Create a new database] ***************************************************
+changed: [161.35.160.84]
+
+TASK [Create database user] ****************************************************
+[WARNING]: Module did not set no_log for update_password
+changed: [161.35.160.84]
+
+PLAY RECAP *********************************************************************
+161.35.160.84              : ok=8    changed=6    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

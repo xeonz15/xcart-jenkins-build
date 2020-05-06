@@ -1,0 +1,11 @@
+commit db818a5fc67bb8d7348b09e9ceb80933b6c2ade9
+tree 424bbfd2f965202049ba03dc02d0209d38727a50
+parent 7596330635b655fd314604565b917059575d4a9c
+author xeonz15 <xeonz73@gmail.com> 2020-05-06 16:52:46 +0400
+committer xeonz15 <xeonz73@gmail.com> 2020-05-06 16:52:46 +0400
+
+    update for jenkins in docker
+
+
+:100755 100755 ac4c93f2d52ef9d8f4f2b3d59d9b400324547103 b209dd15b1e7efba9ddbc3df982e2ee4bb9b6f45 M	configure_droplet.sh
+:100755 100755 a51c6c51d23e21918b994350cbff0f9fbad06819 7720f92ef30890519a8a234134e3cabb2751036f M	create_droplet.sh

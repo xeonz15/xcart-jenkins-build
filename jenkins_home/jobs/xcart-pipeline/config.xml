@@ -1,0 +1,58 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.39">
+  <actions/>
+  <description>deploy new xcart vps</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.29.5">
+      <projectUrl>https://github.com/xeonz15/xcart-test.git/</projectUrl>
+      <displayName></displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>DBName</name>
+          <description>X-Cart Database Name</description>
+          <defaultValue>xcart</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>DBUser</name>
+          <description>X-Cart Database Username</description>
+          <defaultValue>xcart</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.PasswordParameterDefinition>
+          <name>DBPass</name>
+          <description>X-Cart Database Password</description>
+          <defaultValue>{AQAAABAAAAAQovv0URWMo1P5UhMF4e4DNfqZDJwQ5BOPZzVOZV9ZGK8=}</defaultValue>
+        </hudson.model.PasswordParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.80">
+    <script>// Powered by Infostretch 
+
+timestamps {
+
+node () {
+
+	stage (&apos;xcart - Checkout&apos;) {
+ 	 checkout([$class: &apos;GitSCM&apos;, branches: [[name: &apos;*/master&apos;]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: &apos;&apos;, url: &apos;https://github.com/xeonz15/xcart-test.git/&apos;]]]) 
+	}
+	stage (&apos;xcart - Build&apos;) {
+ 	
+withCredentials([string(credentialsId: &apos;c_DO_TOKEN&apos;, variable: &apos;cr_DO_TOKEN&apos;)]) {
+ sh &quot;&quot;&quot; 
+ ${WORKSPACE}/create_droplet.sh ${cr_DO_TOKEN}
+ ${WORKSPACE}/configure_droplet.sh $DBName $DBUser $DBPass 
+  &quot;&quot;&quot; 
+}
+}
+}
+}</script>
+    <sandbox>false</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

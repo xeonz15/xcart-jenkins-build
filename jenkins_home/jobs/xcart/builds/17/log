@@ -1,0 +1,23 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/xcart
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cd02410d6309c27f8350d6ad613a928bc097025b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cd02410d6309c27f8350d6ad613a928bc097025b # timeout=10
+Commit message: "add terraform"
+ > git rev-list --no-walk cd02410d6309c27f8350d6ad613a928bc097025b # timeout=10
+[xcart] $ /bin/sh -xe /tmp/jenkins1294434934969489843.sh
++ cd terraform
++ terraform init
+/tmp/jenkins1294434934969489843.sh: line 3: terraform: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

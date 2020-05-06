@@ -1,0 +1,111 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.4">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.80">
+    <parentIds>
+      <string>4</string>
+    </parentIds>
+    <id>5</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.input.InputStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.80">
+      <arguments>
+        <entry>
+          <string>message</string>
+          <string>Please set Database Parameters</string>
+        </entry>
+        <entry>
+          <string>parameters</string>
+          <list>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>defaultValue</string>
+                  <string>xcart</string>
+                </entry>
+                <entry>
+                  <string>description</string>
+                  <string>Database name</string>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>DBName</string>
+                </entry>
+                <entry>
+                  <string>trim</string>
+                  <boolean>false</boolean>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>string</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>defaultValue</string>
+                  <string>xcart</string>
+                </entry>
+                <entry>
+                  <string>description</string>
+                  <string>Database user</string>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>DBUser</string>
+                </entry>
+                <entry>
+                  <string>trim</string>
+                  <boolean>false</boolean>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+            <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+              <symbol>password</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>defaultValue</string>
+                  <string>xcart1234</string>
+                </entry>
+                <entry>
+                  <string>description</string>
+                  <string>Database password</string>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>DBPass</string>
+                </entry>
+              </arguments>
+            </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1588531745353</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <s.a.PauseAction>
+      <cause>Input</cause>
+      <startTime>1588531745381</startTime>
+      <endTime>1588531774681</endTime>
+    </s.a.PauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction plugin="pipeline-input-step@2.11">
+      <parameters class="linked-hash-map">
+        <entry>
+          <string>DBName</string>
+          <string>xcart</string>
+        </entry>
+        <entry>
+          <string>DBUser</string>
+          <string>xcart</string>
+        </entry>
+        <entry>
+          <string>DBPass</string>
+          <hudson.util.Secret>{AQAAABAAAAAQ+GlFfY3gk/8yRTsTp6Df1QWvLH9aGtA6IZWjrxeT+Eo=}</hudson.util.Secret>
+        </entry>
+      </parameters>
+      <approver>admin</approver>
+    </org.jenkinsci.plugins.workflow.support.steps.input.InputSubmittedAction>
+  </actions>
+</Tag>

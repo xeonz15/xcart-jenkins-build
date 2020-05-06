@@ -1,0 +1,85 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/xcart
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 160ebf7cf71904afafbbc152617866c5cd9677d3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 160ebf7cf71904afafbbc152617866c5cd9677d3 # timeout=10
+Commit message: "terraform update"
+ > git rev-list --no-walk cd02410d6309c27f8350d6ad613a928bc097025b # timeout=10
+[terraform] $ /var/lib/jenkins/tools/org.jenkinsci.plugins.terraform.TerraformInstallation/terraform/terraform get
+[terraform] $ /var/lib/jenkins/tools/org.jenkinsci.plugins.terraform.TerraformInstallation/terraform/terraform apply -input=false -state=/var/lib/jenkins/workspace/xcart/terraform-plugin/terraform-plugin.tfstate -var-file=/var/lib/jenkins/workspace/xcart/terraform-plugin/variables978022214679343711.tfvars
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  [32m+[0m create
+[0m
+Terraform will perform the following actions:
+
+[1m  # digitalocean_droplet.node1[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "digitalocean_droplet" "node1" {
+      [32m+[0m [0m[1m[0mbackups[0m[0m              = false
+      [32m+[0m [0m[1m[0mcreated_at[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mdisk[0m[0m                 = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m                   = (known after apply)
+      [32m+[0m [0m[1m[0mimage[0m[0m                = "centos-7-x64"
+      [32m+[0m [0m[1m[0mipv4_address[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mipv4_address_private[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mipv6[0m[0m                 = false
+      [32m+[0m [0m[1m[0mipv6_address[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mipv6_address_private[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mlocked[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mmemory[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0mmonitoring[0m[0m           = false
+      [32m+[0m [0m[1m[0mname[0m[0m                 = "lon1-xcart1"
+      [32m+[0m [0m[1m[0mprice_hourly[0m[0m         = (known after apply)
+      [32m+[0m [0m[1m[0mprice_monthly[0m[0m        = (known after apply)
+      [32m+[0m [0m[1m[0mprivate_networking[0m[0m   = (known after apply)
+      [32m+[0m [0m[1m[0mregion[0m[0m               = "lon1"
+      [32m+[0m [0m[1m[0mresize_disk[0m[0m          = true
+      [32m+[0m [0m[1m[0msize[0m[0m                 = "s-1vcpu-2gb"
+      [32m+[0m [0m[1m[0mssh_keys[0m[0m             = (known after apply)
+      [32m+[0m [0m[1m[0mstatus[0m[0m               = (known after apply)
+      [32m+[0m [0m[1m[0murn[0m[0m                  = (known after apply)
+      [32m+[0m [0m[1m[0mvcpus[0m[0m                = (known after apply)
+      [32m+[0m [0m[1m[0mvolume_ids[0m[0m           = (known after apply)
+      [32m+[0m [0m[1m[0mvpc_uuid[0m[0m             = (known after apply)
+    }
+
+[1m  # digitalocean_ssh_key.default[0m will be created[0m[0m
+[0m  [32m+[0m[0m resource "digitalocean_ssh_key" "default" {
+      [32m+[0m [0m[1m[0mfingerprint[0m[0m = (known after apply)
+      [32m+[0m [0m[1m[0mid[0m[0m          = (known after apply)
+      [32m+[0m [0m[1m[0mname[0m[0m        = "jenkins ssh key"
+      [32m+[0m [0m[1m[0mpublic_key[0m[0m  = <<~EOT
+            ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCkPBBLGutGyY0sf7dzJ5ZrO64flgBzBHilPn3SoQ2O/G344rqB29iZBYWeHOlmCoESrjmV9AtfASScP3dLMgf8HODZV7H8P+K/MAumCbv/F+mzvp7vPt0I5wMYzzdptswbeBI/97pUSeoguvPHFV5uhZ8+fUkSbkf5GJad1+mKn2NON0758oJBv95S7OuEIwkJCG5Dn9h9pDdwu1gLTCF0lkgPSCIqbJ8hda+Gd6xSzoLcsFF8pgN3Pc9xYFq9D/Xl6FAneq4fOOmrOXgGSUyYQklPY0nLMXcylVfCSHuOvtImX1jY395mNFsh45og2gEWMbAw1l7etngT89XXVXM7 jenkins@linux-deploy.localdomain
+        EOT
+    }
+
+[0m[1mPlan:[0m 2 to add, 0 to change, 0 to destroy.[0m
+
+[0m[1mDo you want to perform these actions?[0m
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  [1mEnter a value:[0m [0m
+Apply cancelled.
+FATAL: java.lang.Exception: Terraform Apply failed: 1
+	at org.jenkinsci.plugins.terraform.TerraformBuildWrapper.executeApply(TerraformBuildWrapper.java:249)
+	at org.jenkinsci.plugins.terraform.TerraformBuildWrapper.setUp(TerraformBuildWrapper.java:269)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:157)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1856)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+
+Finished: FAILURE

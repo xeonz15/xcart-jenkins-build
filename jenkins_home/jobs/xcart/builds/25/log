@@ -1,0 +1,56 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/xcart
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/xeonz15/xcart-test.git/
+ > git init /var/lib/jenkins/workspace/xcart # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+ > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cd02410d6309c27f8350d6ad613a928bc097025b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cd02410d6309c27f8350d6ad613a928bc097025b # timeout=10
+Commit message: "add terraform"
+ > git rev-list --no-walk cd02410d6309c27f8350d6ad613a928bc097025b # timeout=10
+[terraform] $ /var/lib/jenkins/tools/org.jenkinsci.plugins.terraform.TerraformInstallation/terraform/terraform get
+[terraform] $ /var/lib/jenkins/tools/org.jenkinsci.plugins.terraform.TerraformInstallation/terraform/terraform apply -input=false -state=/var/lib/jenkins/workspace/xcart/terraform-plugin/terraform-plugin.tfstate -var-file=/var/lib/jenkins/workspace/xcart/terraform-plugin/variables1575207188722324125.tfvars
+[31m
+[1m[31mError: [0m[0m[1mCould not satisfy plugin requirements[0m
+
+[0m
+Plugin reinitialization required. Please run "terraform init".
+
+Plugins are external binaries that Terraform uses to access and manipulate
+resources. The configuration provided requires plugins which can't be located,
+don't satisfy the version constraints, or are otherwise incompatible.
+
+Terraform automatically discovers provider requirements from your
+configuration, including providers used in child modules. To see the
+requirements and constraints from each module, run "terraform providers".
+
+[0m[0m
+[31m
+[1m[31mError: [0m[0m[1mprovider.digitalocean: no suitable version installed
+  version requirements: "(any version)"
+  versions installed: none[0m
+
+[0m[0m[0m
+FATAL: java.lang.Exception: Terraform Apply failed: 1
+	at org.jenkinsci.plugins.terraform.TerraformBuildWrapper.executeApply(TerraformBuildWrapper.java:249)
+	at org.jenkinsci.plugins.terraform.TerraformBuildWrapper.setUp(TerraformBuildWrapper.java:269)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:157)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1856)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+
+Finished: FAILURE

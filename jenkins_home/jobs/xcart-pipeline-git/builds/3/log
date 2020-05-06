@@ -1,0 +1,250 @@
+Started by user [8mha:////4Cg/cY5jGek9LLm+qFenaBEdEEI3hppD6SX1i3Rm0jYHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mqwe
+Obtained Jenkinsfile from git https://github.com/xeonz15/xcart-test.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4EUepvGcWCy3CPzrhdlPATvU+Uc1j5S3/lneUPsgueljAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4BER4tAqw4BEpqHhMFoFEO6OTS1pbtKNiqiT/7dHJLkxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] timestamps
+[8mha:////4BMhZMcSlHK30z8fXwaeIen5PLzyo8HjH5QLVdAdvndAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HCXRSjfTPWZPOe9mbNykAB3HrbmkVkZTXdBskKnsge/AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+[2020-05-03T17:43:34.889Z] Running on [8mha:////4MjY/5qdRgwavOiydhkjI9XGQE9Ifc6L0vE4P4fv3qfNAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/qqq
+[8mha:////4ARifmOrik/UGL7ua3TPp2VHW6H4PyE11tPaCDuFKCLmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4N/ONYAdgwPUsbdA9R1wOJAAXmCzXBOXDyfdYelmVU2ZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4F0Xdq2Wfl3TSxsNSrjcK/ZVL6en6blDygN5wETTNDZfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (xcart - Checkout)
+[8mha:////4ByNi52VQZTJ0MZdilD+316OMwQhS3r1rjKCkAr1HwM0AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] checkout
+[2020-05-03T17:43:35.127Z] No credentials specified
+[2020-05-03T17:43:35.128Z]  > git rev-parse --is-inside-work-tree # timeout=10
+[2020-05-03T17:43:35.135Z] Fetching changes from the remote Git repository
+[2020-05-03T17:43:35.135Z]  > git config remote.origin.url https://github.com/xeonz15/xcart-test.git/ # timeout=10
+[2020-05-03T17:43:35.143Z] Fetching upstream changes from https://github.com/xeonz15/xcart-test.git/
+[2020-05-03T17:43:35.143Z]  > git --version # timeout=10
+[2020-05-03T17:43:35.153Z]  > git fetch --tags --force --progress -- https://github.com/xeonz15/xcart-test.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2020-05-03T17:43:36.613Z]  > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+[2020-05-03T17:43:36.623Z]  > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+[2020-05-03T17:43:36.629Z] Checking out Revision b8ad091822d8c8f70eee829b7ef32485deb1bc2a (refs/remotes/origin/master)
+[2020-05-03T17:43:36.629Z]  > git config core.sparsecheckout # timeout=10
+[2020-05-03T17:43:36.640Z]  > git checkout -f b8ad091822d8c8f70eee829b7ef32485deb1bc2a # timeout=10
+[2020-05-03T17:43:36.654Z] Commit message: "jenkinsfile v2"
+[2020-05-03T17:43:36.654Z]  > git rev-list --no-walk 641e1fafa5ba2e14bcc65378b6eb291a75691846 # timeout=10
+[8mha:////4AGq96rS9wWC+PeTGfECcdVLdhiyPKjOcwf7a6sYyGnBAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4KcO+enTP2/Dn+RDh8sISlFkdv/iny/nXhciW5IBI9BgAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4FLjWFAg4gVqi6xwU6hjEP+DvhGjf0wEuiB+6I8acXghAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4AlNf+yETTNp1XmGBzvwut/0227yNyMrVGhT/3kkQzyqAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (xcart - Build)
+[8mha:////4Iaocei2DTBrnSoZY6WkaxlF5cX4XPR9xHndpppkAw+uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withCredentials
+[2020-05-03T17:43:36.780Z] Masking supported pattern matches of $cr_DO_TOKEN
+[8mha:////4LbHqICFlX6EEQaR+jwaFFWmvDTQr06FJ5U2BNEuu3jUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4F6rMyAGY2q/2NEcDtx2sB6SnasaXRFAsht5aN90JU/2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
+[2020-05-03T17:43:37.130Z] + /var/lib/jenkins/workspace/qqq/create_droplet.sh ****
+[2020-05-03T17:43:37.130Z] 
+[2020-05-03T17:43:37.130Z] [0m[1mInitializing the backend...[0m
+[2020-05-03T17:43:37.130Z] 
+[2020-05-03T17:43:37.130Z] [0m[1mInitializing provider plugins...[0m
+[2020-05-03T17:43:37.130Z] 
+[2020-05-03T17:43:37.130Z] The following providers do not have any version constraints in configuration,
+[2020-05-03T17:43:37.130Z] so the latest version was installed.
+[2020-05-03T17:43:37.130Z] 
+[2020-05-03T17:43:37.130Z] To prevent automatic upgrades to new major versions that may contain breaking
+[2020-05-03T17:43:37.130Z] changes, it is recommended to add version = "..." constraints to the
+[2020-05-03T17:43:37.130Z] corresponding provider blocks in configuration, with the constraint strings
+[2020-05-03T17:43:37.130Z] suggested below.
+[2020-05-03T17:43:37.131Z] 
+[2020-05-03T17:43:37.131Z] * provider.digitalocean: version = "~> 1.17"
+[2020-05-03T17:43:37.131Z] 
+[2020-05-03T17:43:37.131Z] [0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+[2020-05-03T17:43:37.131Z] [0m[32m
+[2020-05-03T17:43:37.131Z] You may now begin working with Terraform. Try running "terraform plan" to see
+[2020-05-03T17:43:37.131Z] any changes that are required for your infrastructure. All Terraform commands
+[2020-05-03T17:43:37.131Z] should now work.
+[2020-05-03T17:43:37.131Z] 
+[2020-05-03T17:43:37.131Z] If you ever set or change modules or backend configuration for Terraform,
+[2020-05-03T17:43:37.131Z] rerun this command to reinitialize your working directory. If you forget, other
+[2020-05-03T17:43:37.131Z] commands will detect it and remind you to do so if necessary.[0m
+[2020-05-03T17:43:38.051Z] [0m[1mRefreshing Terraform state in-memory prior to plan...[0m
+[2020-05-03T17:43:38.051Z] The refreshed state will be used to calculate this plan, but will not be
+[2020-05-03T17:43:38.051Z] persisted to local or remote state storage.
+[2020-05-03T17:43:38.051Z] [0m
+[2020-05-03T17:43:38.607Z] 
+[2020-05-03T17:43:38.607Z] ------------------------------------------------------------------------
+[2020-05-03T17:43:38.865Z] 
+[2020-05-03T17:43:38.865Z] An execution plan has been generated and is shown below.
+[2020-05-03T17:43:38.865Z] Resource actions are indicated with the following symbols:
+[2020-05-03T17:43:38.865Z]   [32m+[0m create
+[2020-05-03T17:43:38.865Z] [0m
+[2020-05-03T17:43:38.865Z] Terraform will perform the following actions:
+[2020-05-03T17:43:38.865Z] 
+[2020-05-03T17:43:38.865Z] [1m  # digitalocean_droplet.node1[0m will be created[0m[0m
+[2020-05-03T17:43:38.865Z] [0m  [32m+[0m[0m resource "digitalocean_droplet" "node1" {
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mbackups[0m[0m              = false
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mcreated_at[0m[0m           = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mdisk[0m[0m                 = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mid[0m[0m                   = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mimage[0m[0m                = "centos-7-x64"
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mipv4_address[0m[0m         = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mipv4_address_private[0m[0m = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mipv6[0m[0m                 = false
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mipv6_address[0m[0m         = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mipv6_address_private[0m[0m = (known after apply)
+[2020-05-03T17:43:38.865Z]       [32m+[0m [0m[1m[0mlocked[0m[0m               = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mmemory[0m[0m               = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mmonitoring[0m[0m           = false
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mname[0m[0m                 = "lon1-xcart1"
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mprice_hourly[0m[0m         = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mprice_monthly[0m[0m        = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mprivate_networking[0m[0m   = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mregion[0m[0m               = "lon1"
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mresize_disk[0m[0m          = true
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0msize[0m[0m                 = "s-1vcpu-2gb"
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mssh_keys[0m[0m             = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mstatus[0m[0m               = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0murn[0m[0m                  = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mvcpus[0m[0m                = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mvolume_ids[0m[0m           = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mvpc_uuid[0m[0m             = (known after apply)
+[2020-05-03T17:43:38.866Z]     }
+[2020-05-03T17:43:38.866Z] 
+[2020-05-03T17:43:38.866Z] [1m  # digitalocean_ssh_key.default[0m will be created[0m[0m
+[2020-05-03T17:43:38.866Z] [0m  [32m+[0m[0m resource "digitalocean_ssh_key" "default" {
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mfingerprint[0m[0m = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mid[0m[0m          = (known after apply)
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mname[0m[0m        = "jenkins ssh key"
+[2020-05-03T17:43:38.866Z]       [32m+[0m [0m[1m[0mpublic_key[0m[0m  = <<~EOT
+[2020-05-03T17:43:38.866Z]             ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCkPBBLGutGyY0sf7dzJ5ZrO64flgBzBHilPn3SoQ2O/G344rqB29iZBYWeHOlmCoESrjmV9AtfASScP3dLMgf8HODZV7H8P+K/MAumCbv/F+mzvp7vPt0I5wMYzzdptswbeBI/97pUSeoguvPHFV5uhZ8+fUkSbkf5GJad1+mKn2NON0758oJBv95S7OuEIwkJCG5Dn9h9pDdwu1gLTCF0lkgPSCIqbJ8hda+Gd6xSzoLcsFF8pgN3Pc9xYFq9D/Xl6FAneq4fOOmrOXgGSUyYQklPY0nLMXcylVfCSHuOvtImX1jY395mNFsh45og2gEWMbAw1l7etngT89XXVXM7 jenkins@linux-deploy.localdomain
+[2020-05-03T17:43:38.866Z]         EOT
+[2020-05-03T17:43:38.866Z]     }
+[2020-05-03T17:43:38.866Z] 
+[2020-05-03T17:43:38.866Z] [0m[1mPlan:[0m 2 to add, 0 to change, 0 to destroy.[0m
+[2020-05-03T17:43:38.866Z] 
+[2020-05-03T17:43:38.866Z] ------------------------------------------------------------------------
+[2020-05-03T17:43:38.866Z] 
+[2020-05-03T17:43:38.866Z] Note: You didn't specify an "-out" parameter to save this plan, so Terraform
+[2020-05-03T17:43:38.866Z] can't guarantee that exactly these actions will be performed if
+[2020-05-03T17:43:38.866Z] "terraform apply" is subsequently run.
+[2020-05-03T17:43:38.866Z] 
+[2020-05-03T17:43:40.730Z] [0m[1mdigitalocean_ssh_key.default: Creating...[0m[0m
+[2020-05-03T17:43:42.608Z] [0m[1mdigitalocean_ssh_key.default: Creation complete after 1s [id=27290997][0m[0m
+[2020-05-03T17:43:42.608Z] [0m[1mdigitalocean_droplet.node1: Creating...[0m[0m
+[2020-05-03T17:43:52.523Z] [0m[1mdigitalocean_droplet.node1: Still creating... [10s elapsed][0m[0m
+[2020-05-03T17:44:02.424Z] [0m[1mdigitalocean_droplet.node1: Still creating... [20s elapsed][0m[0m
+[2020-05-03T17:44:14.552Z] [0m[1mdigitalocean_droplet.node1: Still creating... [30s elapsed][0m[0m
+[2020-05-03T17:44:22.596Z] [0m[1mdigitalocean_droplet.node1: Still creating... [40s elapsed][0m[0m
+[2020-05-03T17:44:26.742Z] [0m[1mdigitalocean_droplet.node1: Creation complete after 44s [id=190879309][0m[0m
+[2020-05-03T17:44:26.742Z] [0m[1m[32m
+[2020-05-03T17:44:26.742Z] Apply complete! Resources: 2 added, 0 changed, 0 destroyed.[0m
+[2020-05-03T17:44:26.742Z] [0m[1m[32m
+[2020-05-03T17:44:26.742Z] Outputs:
+[2020-05-03T17:44:26.742Z] 
+[2020-05-03T17:44:26.742Z] instance_ip_addr = 178.62.82.102[0m
+[2020-05-03T17:44:26.742Z] Waiting 60 sec while instance booting...
+[2020-05-03T17:45:34.397Z] + /var/lib/jenkins/workspace/qqq/configure_droplet.sh null null null
+[2020-05-03T17:45:34.397Z] 
+[2020-05-03T17:45:34.397Z] PLAY [Deploy XCart] ************************************************************
+[2020-05-03T17:45:34.397Z] 
+[2020-05-03T17:45:34.398Z] TASK [Gathering Facts] *********************************************************
+[2020-05-03T17:45:39.667Z] ok: [178.62.82.102]
+[2020-05-03T17:45:39.667Z] 
+[2020-05-03T17:45:39.667Z] TASK [include_tasks] ***********************************************************
+[2020-05-03T17:45:39.919Z] included: /var/lib/jenkins/workspace/qqq/ansible/nginx.yml for 178.62.82.102
+[2020-05-03T17:45:40.172Z] 
+[2020-05-03T17:45:40.172Z] TASK [Add epel-release repo] ***************************************************
+[2020-05-03T17:45:52.376Z] changed: [178.62.82.102]
+[2020-05-03T17:45:52.376Z] 
+[2020-05-03T17:45:52.376Z] TASK [Install nginx] ***********************************************************
+[2020-05-03T17:46:18.982Z] changed: [178.62.82.102]
+[2020-05-03T17:46:18.982Z] 
+[2020-05-03T17:46:18.982Z] TASK [Owner nginx to files] ****************************************************
+[2020-05-03T17:46:25.552Z] changed: [178.62.82.102]
+[2020-05-03T17:46:25.552Z] 
+[2020-05-03T17:46:25.552Z] TASK [ensure nginx is running] *************************************************
+[2020-05-03T17:46:33.615Z] changed: [178.62.82.102]
+[2020-05-03T17:46:33.615Z] 
+[2020-05-03T17:46:33.615Z] TASK [include_tasks] ***********************************************************
+[2020-05-03T17:46:33.615Z] included: /var/lib/jenkins/workspace/qqq/ansible/php.yml for 178.62.82.102
+[2020-05-03T17:46:33.615Z] 
+[2020-05-03T17:46:33.615Z] TASK [Add yum utils] ***********************************************************
+[2020-05-03T17:46:38.873Z] ok: [178.62.82.102]
+[2020-05-03T17:46:38.873Z] 
+[2020-05-03T17:46:38.873Z] TASK [Install php7] ************************************************************
+[2020-05-03T17:46:46.912Z] changed: [178.62.82.102]
+[2020-05-03T17:46:46.912Z] 
+[2020-05-03T17:46:46.912Z] TASK [Enable php7.2] ***********************************************************
+[2020-05-03T17:46:51.081Z] changed: [178.62.82.102]
+[2020-05-03T17:46:51.081Z] 
+[2020-05-03T17:46:51.081Z] TASK [Install PHP additions...] ************************************************
+[2020-05-03T17:46:51.081Z] [DEPRECATION WARNING]: Invoking "yum" only once while using a loop via 
+[2020-05-03T17:46:51.081Z] squash_actions is deprecated. Instead of using a loop to supply multiple items 
+[2020-05-03T17:46:51.081Z] and specifying `name: "{{item}}"`, please use `name: ['php', 'php-common', 
+[2020-05-03T17:46:51.081Z] 'php-opcache', 'php-mcrypt', 'php-cli', 'php-gd', 'php-curl', 'php-pdo', 'php-
+[2020-05-03T17:46:51.081Z] mysql', 'php-xml', 'php-fpm']` and remove the loop. This feature will be 
+[2020-05-03T17:46:51.081Z] removed in version 2.11. Deprecation warnings can be disabled by setting 
+[2020-05-03T17:46:51.081Z] deprecation_warnings=False in ansible.cfg.
+[2020-05-03T17:47:17.607Z] changed: [178.62.82.102] => (item=[u'php', u'php-common', u'php-opcache', u'php-mcrypt', u'php-cli', u'php-gd', u'php-curl', u'php-pdo', u'php-mysql', u'php-xml', u'php-fpm'])
+[2020-05-03T17:47:17.607Z] 
+[2020-05-03T17:47:17.607Z] TASK [replace user for nginx] **************************************************
+[2020-05-03T17:47:20.097Z] changed: [178.62.82.102]
+[2020-05-03T17:47:20.349Z] 
+[2020-05-03T17:47:20.349Z] TASK [ensure php-fpm is running] ***********************************************
+[2020-05-03T17:47:26.896Z] changed: [178.62.82.102]
+[2020-05-03T17:47:26.896Z] 
+[2020-05-03T17:47:26.896Z] TASK [Restart php] *************************************************************
+[2020-05-03T17:47:33.442Z] changed: [178.62.82.102]
+[2020-05-03T17:47:33.442Z] 
+[2020-05-03T17:47:33.442Z] TASK [include_tasks] ***********************************************************
+[2020-05-03T17:47:33.442Z] included: /var/lib/jenkins/workspace/qqq/ansible/nginx-config.yml for 178.62.82.102
+[2020-05-03T17:47:33.443Z] 
+[2020-05-03T17:47:33.443Z] TASK [Copy nginx conf] *********************************************************
+[2020-05-03T17:47:43.324Z] changed: [178.62.82.102]
+[2020-05-03T17:47:43.324Z] 
+[2020-05-03T17:47:43.324Z] TASK [Copy nginx php-fpm conf] *************************************************
+[2020-05-03T17:47:53.241Z] changed: [178.62.82.102]
+[2020-05-03T17:47:53.241Z] 
+[2020-05-03T17:47:53.241Z] TASK [Copy nginx main conf] ****************************************************
+[2020-05-03T17:48:01.271Z] changed: [178.62.82.102]
+[2020-05-03T17:48:01.271Z] 
+[2020-05-03T17:48:01.272Z] TASK [Restart nginx] ***********************************************************
+[2020-05-03T17:48:07.802Z] changed: [178.62.82.102]
+[2020-05-03T17:48:07.802Z] 
+[2020-05-03T17:48:07.802Z] TASK [Extracting xcart tgz] ****************************************************
+[2020-05-03T18:20:59.875Z] changed: [178.62.82.102]
+[2020-05-03T18:20:59.875Z] 
+[2020-05-03T18:20:59.875Z] TASK [Owner nginx to files] ****************************************************
+[2020-05-03T18:21:26.582Z] changed: [178.62.82.102]
+[2020-05-03T18:21:26.582Z] 
+[2020-05-03T18:21:26.582Z] TASK [Appling new SELinux file context to html dir] ****************************
+[2020-05-03T18:21:38.718Z] changed: [178.62.82.102]
+[2020-05-03T18:21:38.718Z] 
+[2020-05-03T18:21:38.718Z] TASK [Set nginx SELinux permissions] *******************************************
+[2020-05-03T18:21:48.657Z] changed: [178.62.82.102]
+[2020-05-03T18:21:48.657Z] 
+[2020-05-03T18:21:48.657Z] TASK [include_tasks] ***********************************************************
+[2020-05-03T18:21:48.657Z] included: /var/lib/jenkins/workspace/qqq/ansible/mysql.yml for 178.62.82.102
+[2020-05-03T18:21:48.657Z] 
+[2020-05-03T18:21:48.657Z] TASK [Install MariaDB repo] ****************************************************
+[2020-05-03T18:21:56.697Z] changed: [178.62.82.102]
+[2020-05-03T18:21:56.697Z] 
+[2020-05-03T18:21:56.698Z] TASK [Install MariaDB packages] ************************************************
+[2020-05-03T18:22:52.825Z] changed: [178.62.82.102]
+[2020-05-03T18:22:52.825Z] 
+[2020-05-03T18:22:52.825Z] TASK [Enable the MariaDB service] **********************************************
+[2020-05-03T18:22:55.383Z] changed: [178.62.82.102]
+[2020-05-03T18:22:55.383Z] 
+[2020-05-03T18:22:55.383Z] TASK [Install python modules for mysql] ****************************************
+[2020-05-03T18:23:10.397Z] changed: [178.62.82.102]
+[2020-05-03T18:23:10.397Z] 
+[2020-05-03T18:23:10.397Z] TASK [Create a new database] ***************************************************
+[2020-05-03T18:23:14.623Z] changed: [178.62.82.102]
+[2020-05-03T18:23:14.623Z] 
+[2020-05-03T18:23:14.623Z] TASK [Create database user] ****************************************************
+[2020-05-03T18:23:19.847Z] [WARNING]: Module did not set no_log for update_password
+[2020-05-03T18:23:19.847Z] changed: [178.62.82.102]
+[2020-05-03T18:23:19.847Z] 
+[2020-05-03T18:23:19.847Z] PLAY RECAP *********************************************************************
+[2020-05-03T18:23:19.847Z] 178.62.82.102              : ok=30   changed=24   unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[2020-05-03T18:23:19.847Z] 
+[8mha:////4MXiA5Za1/8tm98/nVZGE9rLIskzJJfMC/nwXZI7gXePAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4MXgy8zylUCDwP0iUczOHIzCmuGO6sS/XIfi3U6ltDRrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4HxVfCgX4S8bUdRDXLNt6lR6nT38f40ASy7i+73xxwtGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4FWASQb3TtD+h7QgwwYqMyTVxSXCBx+zbWD3BH60M59cAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4J5aT7FGLALzWimfUtD8N/bDKWRWi/WlluwM0WjF4GZ3AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPtxG/h70AAAA=[0m[Pipeline] }
+[8mha:////4KjRlAdQLQvCEtRMZQ+cF/kbHyNCM9hI1H7QkslujUlyAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJE7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0H3ToWWb0AAAA=[0m[Pipeline] // node
+[8mha:////4KoiMlNoHcKVEfVsexocjAWjUxU46yqW5EdXZGZpE/LnAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B+yNxE70AAAA=[0m[Pipeline] }
+[8mha:////4Mu3gMs0W47UQZmOpPqWKO0URv2k8gumdTXpdDW+0VrdAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBSGo1P70AAAA=[0m[Pipeline] // timestamps
+[8mha:////4OwdEyTyD/cm1e0UqUjkoi1AWqKt/DwC/5jd2r42fDs/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJE7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHbnNSdb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,9 @@
+[filesystem "localhost|Oracle Corporation|1.8.0_242|rootfs"]
+	timestampResolution = 2001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "5e3979b16e94|Oracle Corporation|1.8.0_242|/dev/mapper/centos-root"]
+	timestampResolution = 5001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "4b2bba79cf78|Oracle Corporation|11.0.6|/dev/mapper/vgBackup-lvBackup"]
+	timestampResolution = 11000 nanoseconds
+	minRacyThreshold = 1817 microseconds
