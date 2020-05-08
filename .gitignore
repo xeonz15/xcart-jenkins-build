@@ -10,7 +10,7 @@ jenkins_home/*.jpi.pinned
 jenkins_home/*.json
 
 # Security related
-#jenkins_home/.ssh
+jenkins_home/.ssh
 jenkins_home/secret.key*
 jenkins_home/secrets
 jenkins_home/credentials.xml
